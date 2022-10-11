@@ -1,0 +1,392 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 0;
+    overflow-x: hidden;
+}
+
+
+/*-------HEADER-------*/
+
+
+header {
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    background: #6B1EA8;
+}
+
+
+#marca {
+    color: #000000;
+    background: #6B1EA8;
+    width: 30px;
+    height: 30px; 
+    margin-left: 35px;
+}
+
+
+a {
+    color: #FFFFFF;
+}
+
+
+.navbar-brand span {
+    color: #FFCB46;
+}
+
+
+header span {
+    color: #FFFFFF;
+}
+
+
+#estilo {
+    background: #FFCB46;
+    color: black;
+    border: 0px;
+    border-radius: 15px;
+    width: 220px;
+    height: 40px;
+    margin-top: -9px;
+}
+
+
+/*-------LOGIN-------*/
+
+
+
+
+
+/*-------CARD-IMG-------*/
+
+
+.card-img-top {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    display: flex;
+    background: #DFDFDF;
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
+    padding: 0px;
+    margin-left: 50px;
+}
+
+
+/*-------TEXTO-------*/
+
+
+.texto h1 {
+    color: #000000;
+    text-align: center;
+    margin: 61px;
+    height: 0px;
+}
+
+
+.texto1 {
+    color: #000000;
+    text-align: center;
+    padding-top: 0px;
+    height: 0px;
+    margin: 80px;
+}
+
+
+/*-------CONTAINERCARD-------*/
+
+
+.containerCard {
+    padding-top: 0px;
+}
+
+
+.containerCard .row {
+    height: 400px;
+    left: 0px;
+}
+
+
+#img_circulo {
+    width: 120px;
+    height: 120px;
+    padding: 31px;
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 46px;
+    display: inline-flex;
+}
+
+
+.containerCard .card-body .title {
+    text-align: center;
+    color: #000000;
+    height: 0px;
+}
+
+
+#texto {
+    text-align: center;
+    color: #000000;
+}
+
+
+/*-------IMG_TEXTO-------*/
+
+
+.img_texto {
+    margin-top: 130px;
+}
+
+
+.img_texto .row {
+    background-color: #FFCB46;
+    margin-left: 0px;
+    width: 1440px;
+    height: 549px;
+    padding: 68px;
+}
+
+
+#quadrado {
+    width: 600px;
+    height: 400px;
+    background: #FFCB46;
+    border-radius: 0px 0px 0px 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    border: #FFCB46;
+}
+
+
+.img_texto .row h1 {
+    text-align: left;
+    color: #000000;
+    height: 82px;
+    padding-top: 20%;
+    margin-left: 40px;
+}
+
+
+.img_texto p {
+    text-align: left;
+    padding-top: 20%;
+    margin-left: 40px;
+    color: #000000;
+}
+
+
+/*-------FOOTER-------*/
+
+
+.justify-content-center {
+    width: 1440px;
+    height: 240px;
+    background: #000000;
+    margin-top: 30px;
+}
+
+
+footer h1 {
+    text-align: center;
+    color: #FFFFFF;
+    background: #6B1EA8;
+    padding: 100px;
+}
+
+
+/*------- CONTATO -------*/
+
+
+.text {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.conta {
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.conta img {
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+
+.foto {
+    background: url(../imagens/pexels-olena-bohovyk-17721232.png);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*------- CADASTRO ------- */
+
+
+.conta2 {
+    display: flex;
+    float: left;
+    
+}
+
+
+.figura1 {
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    float: right;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+.foto1 {
+    background: url(../imagens/pexels-pixabay-270348.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -321px;
+}
+
+
+/*------- QUEM SOMOS -------*/
+
+
+.figura2 {
+    margin: 0px;
+    margin-left: -15px;
+}
+
+
+.figura2 h3 {
+    color: #DFDFDF;
+    background: url(../imagens/pexels-sathesh-d-6988088.jpg);
+    height: 374px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    text-align: center;
+}
+
+
+.paragrafo1 h1 {
+    color: #000000;
+    text-align: center;
+    margin: 47px;
+}
+
+
+.paragrafo1 p {
+    color: #000000;
+    text-align: center;
+    margin-right: 14%;
+    margin-left: 15%;
+    font-size: 26px;
+    align-items: center;
+}
+
+
+.row .card {
+    margin: 0px;
+}
+
+
+.card-title {
+    text-align: center;
+}
+
+
+.row .card-text {
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    margin-right: 44px;
+}
+
+
+.card-img-top {
+    border-radius: 104px;
+    padding: 86px;
+}
+
+
+.container-fluid {
+    display: flex;
+    background: #FEFFD2;
+    height: 70vh;
+    padding-top: 55px;
+    padding-bottom: 60px;
+    padding-left: 128px;
+}
+
+
+.container-fluid p {
+    display: flex;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 124px;
+}
+
+
+.container-fluid img {
+    margin: 18px;
+
+}
+
+
+.paragrafo2 span {
+    color: red;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .login .row {
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    .login {
+        width: 100%;
+        display: inline-block;
+    }
+
+
+    body {
+        height: auto;
+    }
+
+    
+    
+
+    .header {
+        width: 100%;
+
+    }
+
+    .card-deck .card .card-body a {
+        width: 100%;
+    }
+}
